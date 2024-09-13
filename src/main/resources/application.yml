@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: 43-SpringSecurity-JDBCAuth-24
+
+    
+    
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sbsecurity  # Ensure this points to the correct database
+    username: root
+    password: "#Happy123"
+  jpa:
+    show-sql: true  # Assuming you want to show SQL queries
+
+
+ 
